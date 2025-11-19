@@ -38,6 +38,13 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Nerdbank.GitVersioning": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.9.50, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
